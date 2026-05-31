@@ -1,6 +1,8 @@
 clc;
 clear;
 
-a = 1:100;
-figure; 
-plot(a,'b');
+a = linspace(1,200,200);
+b = 10.^(a);
+
+figure; grid on;
+semilogy(a,b,'b');
